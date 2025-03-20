@@ -118,10 +118,10 @@ export default function App() {
         );
       })}
       {isGameOver && (
-        <>
-          <h1>The answer is</h1>
-          <h2>{solution}</h2>
-        </>
+        <div className="answer-container">
+          <h1 className="Answerpt1">The answer </h1>
+          <h2 className="Answer">{solution}</h2>
+        </div>
       )}
     </div>
   );

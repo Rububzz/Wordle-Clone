@@ -45,5 +45,27 @@
 }
 
 .incorrect {
-    background-color: lightcoral;
+    background-color: red;
+}
+
+.Answerpt1 {
+    color: white;
+    font-size: 64px;
+    font-weight: 900;
+    margin-bottom: 0;
+}
+
+.Answer {
+    color: white;
+    font-size: 58px;
+    font-weight: 900;
+    margin-top: 0;
+    background-color: orange;
+}
+
+.answer-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
 }
